@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/275/trunk/easyMoneyManager/easyMoney.Data
+END
+MoneyDataSet.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/273/trunk/easyMoneyManager/easyMoney.Data/MoneyDataSet.Designer.cs
+END
+easyMoney.Data.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/273/trunk/easyMoneyManager/easyMoney.Data/easyMoney.Data.csproj
+END
+MoneyDataSet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/271/trunk/easyMoneyManager/easyMoney.Data/MoneyDataSet.cs
+END
+MoneyDataKeeper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/275/trunk/easyMoneyManager/easyMoney.Data/MoneyDataKeeper.cs
+END
+ImportDataSet.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/275/trunk/easyMoneyManager/easyMoney.Data/ImportDataSet.Designer.cs
+END
+MoneyDataImporter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/275/trunk/easyMoneyManager/easyMoney.Data/MoneyDataImporter.cs
+END
+MoneyDataSet.xss
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/273/trunk/easyMoneyManager/easyMoney.Data/MoneyDataSet.xss
+END
+MoneyDataSet.xsc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/easyMoneyManager/easyMoney.Data/MoneyDataSet.xsc
+END
+MoneyDataSet.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/273/trunk/easyMoneyManager/easyMoney.Data/MoneyDataSet.xsd
+END
+ImportDataSet.xss
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/273/trunk/easyMoneyManager/easyMoney.Data/ImportDataSet.xss
+END
+ImportDataSet.xsc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/273/trunk/easyMoneyManager/easyMoney.Data/ImportDataSet.xsc
+END
+ValidationResult.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/19/trunk/easyMoneyManager/easyMoney.Data/ValidationResult.cs
+END
+ImportDataSet.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/275/trunk/easyMoneyManager/easyMoney.Data/ImportDataSet.xsd
+END

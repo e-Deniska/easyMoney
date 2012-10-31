@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/275/trunk/easyMoneyManager/easyMoney.Utilities
+END
+easyMoney.Utilities.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/212/trunk/easyMoneyManager/easyMoney.Utilities/easyMoney.Utilities.csproj
+END
+Log.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/152/trunk/easyMoneyManager/easyMoney.Utilities/Log.cs
+END
+UpdateHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/212/trunk/easyMoneyManager/easyMoney.Utilities/UpdateHelper.cs
+END
+Parameters.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/275/trunk/easyMoneyManager/easyMoney.Utilities/Parameters.cs
+END
+HotKeyHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/254/trunk/easyMoneyManager/easyMoney.Utilities/HotKeyHelper.cs
+END
+KeyShortcut.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/254/trunk/easyMoneyManager/easyMoney.Utilities/KeyShortcut.cs
+END
+ObjectDescriptor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/152/trunk/easyMoneyManager/easyMoney.Utilities/ObjectDescriptor.cs
+END
+LocalizationHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/212/trunk/easyMoneyManager/easyMoney.Utilities/LocalizationHelper.cs
+END
+Consts.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/275/trunk/easyMoneyManager/easyMoney.Utilities/Consts.cs
+END
+ErrorHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/246/trunk/easyMoneyManager/easyMoney.Utilities/ErrorHelper.cs
+END
+EncryptionHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/202/trunk/easyMoneyManager/easyMoney.Utilities/EncryptionHelper.cs
+END

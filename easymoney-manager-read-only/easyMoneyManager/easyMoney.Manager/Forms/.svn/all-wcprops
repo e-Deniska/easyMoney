@@ -1,0 +1,437 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/277/trunk/easyMoneyManager/easyMoney.Manager/Forms
+END
+AccountViewForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/246/trunk/easyMoneyManager/easyMoney.Manager/Forms/AccountViewForm.cs
+END
+PlanListForm.ru.resx
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/243/trunk/easyMoneyManager/easyMoney.Manager/Forms/PlanListForm.ru.resx
+END
+TransactionViewForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/246/trunk/easyMoneyManager/easyMoney.Manager/Forms/TransactionViewForm.resx
+END
+SettingsForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/275/trunk/easyMoneyManager/easyMoney.Manager/Forms/SettingsForm.Designer.cs
+END
+AccountCorrectionForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/246/trunk/easyMoneyManager/easyMoney.Manager/Forms/AccountCorrectionForm.resx
+END
+SettingsForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/275/trunk/easyMoneyManager/easyMoney.Manager/Forms/SettingsForm.cs
+END
+SettingsForm.ru.resx
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/275/trunk/easyMoneyManager/easyMoney.Manager/Forms/SettingsForm.ru.resx
+END
+TagRenameForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/246/trunk/easyMoneyManager/easyMoney.Manager/Forms/TagRenameForm.Designer.cs
+END
+AccountListForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/255/trunk/easyMoneyManager/easyMoney.Manager/Forms/AccountListForm.resx
+END
+SearchForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/248/trunk/easyMoneyManager/easyMoney.Manager/Forms/SearchForm.Designer.cs
+END
+TagRenameForm.ru.resx
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/246/trunk/easyMoneyManager/easyMoney.Manager/Forms/TagRenameForm.ru.resx
+END
+SearchForm.ru.resx
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/243/trunk/easyMoneyManager/easyMoney.Manager/Forms/SearchForm.ru.resx
+END
+ReportListForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/255/trunk/easyMoneyManager/easyMoney.Manager/Forms/ReportListForm.Designer.cs
+END
+ReportListForm.ru.resx
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/243/trunk/easyMoneyManager/easyMoney.Manager/Forms/ReportListForm.ru.resx
+END
+AccountEditForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/260/trunk/easyMoneyManager/easyMoney.Manager/Forms/AccountEditForm.resx
+END
+TagRenameForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/246/trunk/easyMoneyManager/easyMoney.Manager/Forms/TagRenameForm.resx
+END
+ReportListForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/243/trunk/easyMoneyManager/easyMoney.Manager/Forms/ReportListForm.resx
+END
+AboutForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/243/trunk/easyMoneyManager/easyMoney.Manager/Forms/AboutForm.resx
+END
+FileImportForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/276/trunk/easyMoneyManager/easyMoney.Manager/Forms/FileImportForm.resx
+END
+WelcomeScreenForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/275/trunk/easyMoneyManager/easyMoney.Manager/Forms/WelcomeScreenForm.Designer.cs
+END
+TransactionEditForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/275/trunk/easyMoneyManager/easyMoney.Manager/Forms/TransactionEditForm.Designer.cs
+END
+FileOptionsForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/248/trunk/easyMoneyManager/easyMoney.Manager/Forms/FileOptionsForm.Designer.cs
+END
+WelcomeScreenForm.ru.resx
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/275/trunk/easyMoneyManager/easyMoney.Manager/Forms/WelcomeScreenForm.ru.resx
+END
+FileOptionsForm.ru.resx
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/248/trunk/easyMoneyManager/easyMoney.Manager/Forms/FileOptionsForm.ru.resx
+END
+TransactionEditForm.ru.resx
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/246/trunk/easyMoneyManager/easyMoney.Manager/Forms/TransactionEditForm.ru.resx
+END
+TransactionListForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/271/trunk/easyMoneyManager/easyMoney.Manager/Forms/TransactionListForm.resx
+END
+AccountEditForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/260/trunk/easyMoneyManager/easyMoney.Manager/Forms/AccountEditForm.Designer.cs
+END
+AccountEditForm.ru.resx
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/246/trunk/easyMoneyManager/easyMoney.Manager/Forms/AccountEditForm.ru.resx
+END
+TagRenameForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/246/trunk/easyMoneyManager/easyMoney.Manager/Forms/TagRenameForm.cs
+END
+FileOptionsForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/248/trunk/easyMoneyManager/easyMoney.Manager/Forms/FileOptionsForm.resx
+END
+ReportListForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/255/trunk/easyMoneyManager/easyMoney.Manager/Forms/ReportListForm.cs
+END
+TransactionEditForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/276/trunk/easyMoneyManager/easyMoney.Manager/Forms/TransactionEditForm.resx
+END
+WelcomeScreenForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/275/trunk/easyMoneyManager/easyMoney.Manager/Forms/WelcomeScreenForm.resx
+END
+AboutForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/243/trunk/easyMoneyManager/easyMoney.Manager/Forms/AboutForm.Designer.cs
+END
+FileImportForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/276/trunk/easyMoneyManager/easyMoney.Manager/Forms/FileImportForm.Designer.cs
+END
+FileImportForm.ru.resx
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/275/trunk/easyMoneyManager/easyMoney.Manager/Forms/FileImportForm.ru.resx
+END
+AboutForm.ru.resx
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/243/trunk/easyMoneyManager/easyMoney.Manager/Forms/AboutForm.ru.resx
+END
+SettingsForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/275/trunk/easyMoneyManager/easyMoney.Manager/Forms/SettingsForm.resx
+END
+TransactionListForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/271/trunk/easyMoneyManager/easyMoney.Manager/Forms/TransactionListForm.cs
+END
+PlanListForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/271/trunk/easyMoneyManager/easyMoney.Manager/Forms/PlanListForm.cs
+END
+TransactionEditForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/262/trunk/easyMoneyManager/easyMoney.Manager/Forms/TransactionEditForm.cs
+END
+FileOptionsForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/250/trunk/easyMoneyManager/easyMoney.Manager/Forms/FileOptionsForm.cs
+END
+WelcomeScreenForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/275/trunk/easyMoneyManager/easyMoney.Manager/Forms/WelcomeScreenForm.cs
+END
+PlanEditForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/266/trunk/easyMoneyManager/easyMoney.Manager/Forms/PlanEditForm.Designer.cs
+END
+PlanEditForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/277/trunk/easyMoneyManager/easyMoney.Manager/Forms/PlanEditForm.cs
+END
+PlanViewForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/246/trunk/easyMoneyManager/easyMoney.Manager/Forms/PlanViewForm.resx
+END
+PlanEditForm.ru.resx
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/246/trunk/easyMoneyManager/easyMoney.Manager/Forms/PlanEditForm.ru.resx
+END
+TransactionViewForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/246/trunk/easyMoneyManager/easyMoney.Manager/Forms/TransactionViewForm.Designer.cs
+END
+TransactionViewForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/246/trunk/easyMoneyManager/easyMoney.Manager/Forms/TransactionViewForm.cs
+END
+TransactionListForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/271/trunk/easyMoneyManager/easyMoney.Manager/Forms/TransactionListForm.Designer.cs
+END
+TransactionViewForm.ru.resx
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/245/trunk/easyMoneyManager/easyMoney.Manager/Forms/TransactionViewForm.ru.resx
+END
+SearchForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/248/trunk/easyMoneyManager/easyMoney.Manager/Forms/SearchForm.resx
+END
+TransactionListForm.ru.resx
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/268/trunk/easyMoneyManager/easyMoney.Manager/Forms/TransactionListForm.ru.resx
+END
+AccountCorrectionForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/246/trunk/easyMoneyManager/easyMoney.Manager/Forms/AccountCorrectionForm.Designer.cs
+END
+AccountCorrectionForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/260/trunk/easyMoneyManager/easyMoney.Manager/Forms/AccountCorrectionForm.cs
+END
+PlanViewForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/246/trunk/easyMoneyManager/easyMoney.Manager/Forms/PlanViewForm.cs
+END
+AccountCorrectionForm.ru.resx
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/246/trunk/easyMoneyManager/easyMoney.Manager/Forms/AccountCorrectionForm.ru.resx
+END
+AccountViewForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/246/trunk/easyMoneyManager/easyMoney.Manager/Forms/AccountViewForm.Designer.cs
+END
+AccountListForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/255/trunk/easyMoneyManager/easyMoney.Manager/Forms/AccountListForm.Designer.cs
+END
+AccountListForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/255/trunk/easyMoneyManager/easyMoney.Manager/Forms/AccountListForm.cs
+END
+AccountViewForm.ru.resx
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/246/trunk/easyMoneyManager/easyMoney.Manager/Forms/AccountViewForm.ru.resx
+END
+AccountListForm.ru.resx
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/246/trunk/easyMoneyManager/easyMoney.Manager/Forms/AccountListForm.ru.resx
+END
+PlanListForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/255/trunk/easyMoneyManager/easyMoney.Manager/Forms/PlanListForm.resx
+END
+AccountEditForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/260/trunk/easyMoneyManager/easyMoney.Manager/Forms/AccountEditForm.cs
+END
+AccountViewForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/246/trunk/easyMoneyManager/easyMoney.Manager/Forms/AccountViewForm.resx
+END
+SearchForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/268/trunk/easyMoneyManager/easyMoney.Manager/Forms/SearchForm.cs
+END
+AboutForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/244/trunk/easyMoneyManager/easyMoney.Manager/Forms/AboutForm.cs
+END
+FileImportForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/276/trunk/easyMoneyManager/easyMoney.Manager/Forms/FileImportForm.cs
+END
+PlanEditForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/266/trunk/easyMoneyManager/easyMoney.Manager/Forms/PlanEditForm.resx
+END
+PlanViewForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/246/trunk/easyMoneyManager/easyMoney.Manager/Forms/PlanViewForm.Designer.cs
+END
+PlanListForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/255/trunk/easyMoneyManager/easyMoney.Manager/Forms/PlanListForm.Designer.cs
+END
+PlanViewForm.ru.resx
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/246/trunk/easyMoneyManager/easyMoney.Manager/Forms/PlanViewForm.ru.resx
+END

@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountTitle" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="ActualBalanceChangesDescription" xml:space="preserve">
+    <value>This report shows changes in assets and debts for period specified.</value>
+  </data>
+  <data name="ActualBalanceChangesFormTitleFormat" xml:space="preserve">
+    <value>Balance changes, from {0} to {1}</value>
+  </data>
+  <data name="ActualBalanceChangesTitle" xml:space="preserve">
+    <value>Balance changes</value>
+  </data>
+  <data name="AmountByTagsChartDescription" xml:space="preserve">
+    <value>This report shows amounts recevied and spent for the period for each tag in a graphical form. Please, note that transactions without tags will not be included in this report.</value>
+  </data>
+  <data name="AmountByTagsChartTitle" xml:space="preserve">
+    <value>Amount by tags (chart)</value>
+  </data>
+  <data name="AmountByTagsDescription" xml:space="preserve">
+    <value>This report shows amounts recevied and spent for the period for each tag. Please, note that transactions without tags will not be included in this report.</value>
+  </data>
+  <data name="AmountByTagsFormTitleFormat" xml:space="preserve">
+    <value>Amount by tags, from {0} to {1}</value>
+  </data>
+  <data name="AmountByTagsTitle" xml:space="preserve">
+    <value>Amount by tags</value>
+  </data>
+  <data name="AmountsByTransactionTypesDescription" xml:space="preserve">
+    <value>This report shows total amounts for each transaction type in graphical form for the period selected. All transactions (including balance correction) will be included in this report.</value>
+  </data>
+  <data name="AmountsByTransactionTypesFormTitleFormat" xml:space="preserve">
+    <value>Amounts by transaction types, from {0} to {1}</value>
+  </data>
+  <data name="AmountsByTransactionTypesTitle" xml:space="preserve">
+    <value>Amounts by transaction types</value>
+  </data>
+  <data name="AmountTitle" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="AssetsPlannedTitle" xml:space="preserve">
+    <value>Assets (planned)</value>
+  </data>
+  <data name="AssetsTitle" xml:space="preserve">
+    <value>Assets</value>
+  </data>
+  <data name="DateTimeTitle" xml:space="preserve">
+    <value>Date/time</value>
+  </data>
+  <data name="DebtsPlannedTitle" xml:space="preserve">
+    <value>Debts (planned)</value>
+  </data>
+  <data name="DebtsTitle" xml:space="preserve">
+    <value>Debts</value>
+  </data>
+  <data name="DeltaTitle" xml:space="preserve">
+    <value>Delta</value>
+  </data>
+  <data name="EarnedTitle" xml:space="preserve">
+    <value>Earned</value>
+  </data>
+  <data name="OnlyAccountTypes" xml:space="preserve">
+    <value>Account types shown: {0}</value>
+  </data>
+  <data name="OnlyTags" xml:space="preserve">
+    <value>Tags shown: {0}</value>
+  </data>
+  <data name="OnlyTransactionTypesTypes" xml:space="preserve">
+    <value>Transaction types shown: {0}</value>
+  </data>
+  <data name="PlannedBalanceChangesDescription" xml:space="preserve">
+    <value>This report shows changes in assets and debts according to current plans.</value>
+  </data>
+  <data name="PlannedBalanceChangesFormTitleFormat" xml:space="preserve">
+    <value>Balance forecast, from {0} to {1}</value>
+  </data>
+  <data name="PlannedBalanceChangesTitle" xml:space="preserve">
+    <value>Balance forecast</value>
+  </data>
+  <data name="SpentTitle" xml:space="preserve">
+    <value>Spent</value>
+  </data>
+  <data name="TagsTitle" xml:space="preserve">
+    <value>Tags</value>
+  </data>
+  <data name="TagTitle" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="TransactionsByAccountDescription" xml:space="preserve">
+    <value>This report shows transactions done on selected accounts in tabular form. </value>
+  </data>
+  <data name="TransactionsByAccountFormTitleFormat" xml:space="preserve">
+    <value>Transactions by account: {0}, from {1} to {2}</value>
+  </data>
+  <data name="TransactionsByAccountTitle" xml:space="preserve">
+    <value>Transactions by account</value>
+  </data>
+  <data name="TransactionsTitle" xml:space="preserve">
+    <value>Transactions</value>
+  </data>
+  <data name="TypeTitle" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="DateTitle" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="DayTotalsTitle" xml:space="preserve">
+    <value>Day totals:</value>
+  </data>
+  <data name="DifferenceIconTitle" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="DifferenceTitle" xml:space="preserve">
+    <value>Difference</value>
+  </data>
+  <data name="EarnTitle" xml:space="preserve">
+    <value>Planned to earn</value>
+  </data>
+  <data name="ImplementedOnAnotherDayTitle" xml:space="preserve">
+    <value>On different day</value>
+  </data>
+  <data name="MonthBalanceDescription" xml:space="preserve">
+    <value>Month balance report shows transactions and plans for the month in tabular view. This report uses color coding of the rows as follows:
+ * green lines - transactions that were planned;
+ * blue lines - transactions which were planned and should be implemented in future;
+ * red lines - transactions which were planned but not implemented;
+ * orange lines - transactions which weren't planned.
+This report also sums differences for the each day and whole month. Less difference is better (this means, that month balance was planned very close to real earnings/spendings).</value>
+  </data>
+  <data name="MonthBalanceTitle" xml:space="preserve">
+    <value>Month balance</value>
+  </data>
+  <data name="MonthTotalsTitle" xml:space="preserve">
+    <value>Month totals:</value>
+  </data>
+  <data name="NotImplementedTitle" xml:space="preserve">
+    <value>Not done!</value>
+  </data>
+  <data name="NotImplementedYetTitle" xml:space="preserve">
+    <value>Not done yet</value>
+  </data>
+  <data name="NotPlannedTitle" xml:space="preserve">
+    <value>Not planned!</value>
+  </data>
+  <data name="PlannedAmountTitle" xml:space="preserve">
+    <value>Planned</value>
+  </data>
+  <data name="PlanTitle" xml:space="preserve">
+    <value>Plan</value>
+  </data>
+  <data name="SpendTitle" xml:space="preserve">
+    <value>Planned to spend</value>
+  </data>
+  <data name="TransactionAmountTitle" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="TransactionTitle" xml:space="preserve">
+    <value>Transaction</value>
+  </data>
+  <data name="MonthBalanceFormTitleFormat" xml:space="preserve">
+    <value>Month balance for {0:Y}</value>
+  </data>
+  <data name="DeviationAnotherDayTitle" xml:space="preserve">
+    <value>Deviation, another day</value>
+  </data>
+  <data name="DeviationFromPlanTitle" xml:space="preserve">
+    <value>Deviation from plan</value>
+  </data>
+  <data name="ImplementedTitle" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="ImplementsTitle" xml:space="preserve">
+    <value>Planned</value>
+  </data>
+  <data name="SignificantDifferenceTitle" xml:space="preserve">
+    <value>Significant difference!</value>
+  </data>
+  <data name="StatusTitle" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="TypeIconTitle" xml:space="preserve">
+    <value>T</value>
+  </data>
+  <data name="SpendingStructureDescription" xml:space="preserve">
+    <value>Spending structure report shows a pie chart describing structure of your spending by transaction types.</value>
+  </data>
+  <data name="SpendingStructureFormTitleFormat" xml:space="preserve">
+    <value>Spending structure, from {0} to {1}</value>
+  </data>
+  <data name="SpendingStructureTitle" xml:space="preserve">
+    <value>Spending structure</value>
+  </data>
+</root>

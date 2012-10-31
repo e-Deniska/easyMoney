@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BenefitPaymentDefault" xml:space="preserve">
+    <value>Benefit payment</value>
+  </data>
+  <data name="BenefitPaymentMessage" xml:space="preserve">
+    <value>Benefit payment for insured event.</value>
+  </data>
+  <data name="BenefitPaymentTitle" xml:space="preserve">
+    <value>Benefit (insurance) payment</value>
+  </data>
+  <data name="BonusDefault" xml:space="preserve">
+    <value>Bonus is received</value>
+  </data>
+  <data name="BonusMessage" xml:space="preserve">
+    <value>You get a bonus (in addition to your salary).</value>
+  </data>
+  <data name="BonusTitle" xml:space="preserve">
+    <value>Bonus</value>
+  </data>
+  <data name="BorrowedDefault" xml:space="preserve">
+    <value>Borrow money</value>
+  </data>
+  <data name="BorrowedMessage" xml:space="preserve">
+    <value>You borrow money from somebody. Account for borrowed money should exist.</value>
+  </data>
+  <data name="BorrowedTitle" xml:space="preserve">
+    <value>Borrow money</value>
+  </data>
+  <data name="CharityDefault" xml:space="preserve">
+    <value>Charity</value>
+  </data>
+  <data name="CharityMessage" xml:space="preserve">
+    <value>You spend money on charity.</value>
+  </data>
+  <data name="CharityTitle" xml:space="preserve">
+    <value>Charity</value>
+  </data>
+  <data name="CommunicationDefault" xml:space="preserve">
+    <value>Communications</value>
+  </data>
+  <data name="CommunicationMessage" xml:space="preserve">
+    <value>Payment for communications (phone, mobile, internet and so on).</value>
+  </data>
+  <data name="CommunicationTitle" xml:space="preserve">
+    <value>Communication costs</value>
+  </data>
+  <data name="CosmeticTreatmentsDefault" xml:space="preserve">
+    <value>Cosmetic treatments</value>
+  </data>
+  <data name="CosmeticTreatmentsMessage" xml:space="preserve">
+    <value>Cosmetic beauty treatments (haircut, manicure, pedicure and so on).</value>
+  </data>
+  <data name="CosmeticTreatmentsTitle" xml:space="preserve">
+    <value>Cosmetic treatments</value>
+  </data>
+  <data name="CreditRepaymentDefault" xml:space="preserve">
+    <value>Debt repayment</value>
+  </data>
+  <data name="CreditRepaymentMessage" xml:space="preserve">
+    <value>Select proper credit account and put amount which you spent on this payment and correct amount (could be less) for reduction on credit account.</value>
+  </data>
+  <data name="CreditRepaymentTitle" xml:space="preserve">
+    <value>Credit/card/debt repayment</value>
+  </data>
+  <data name="DebtReturnedDefault" xml:space="preserve">
+    <value>Debt is returned</value>
+  </data>
+  <data name="DebtReturnedMessage" xml:space="preserve">
+    <value>You get back lended money. Account for lended money should exist.</value>
+  </data>
+  <data name="DebtReturnedTitle" xml:space="preserve">
+    <value>Debt is returned</value>
+  </data>
+  <data name="DinnerDefault" xml:space="preserve">
+    <value>Dinner</value>
+  </data>
+  <data name="DinnerMessage" xml:space="preserve">
+    <value>Dinner or breakfast.</value>
+  </data>
+  <data name="DinnerTitle" xml:space="preserve">
+    <value>Dinner/breakfast</value>
+  </data>
+  <data name="DividentsDefault" xml:space="preserve">
+    <value>Dividents are received</value>
+  </data>
+  <data name="DividentsMessage" xml:space="preserve">
+    <value>You receive dividents, those could be paid to you via cash or any other debit account.</value>
+  </data>
+  <data name="DividentsTitle" xml:space="preserve">
+    <value>Dividents</value>
+  </data>
+  <data name="EntertainmentDefault" xml:space="preserve">
+    <value>Entertainment</value>
+  </data>
+  <data name="EntertainmentMessage" xml:space="preserve">
+    <value>Expenses on movies, restaurants, cafes and other entertainment.</value>
+  </data>
+  <data name="EntertainmentTitle" xml:space="preserve">
+    <value>Entertainment</value>
+  </data>
+  <data name="FineDefault" xml:space="preserve">
+    <value>Pay fine</value>
+  </data>
+  <data name="FineMessage" xml:space="preserve">
+    <value>Fine/penalty payment.</value>
+  </data>
+  <data name="FineTitle" xml:space="preserve">
+    <value>Fine/penalty</value>
+  </data>
+  <data name="GiftGivenDefault" xml:space="preserve">
+    <value>Gift is given</value>
+  </data>
+  <data name="GiftGivenMessage" xml:space="preserve">
+    <value>You give money to somebody as a gift.</value>
+  </data>
+  <data name="GiftGivenTitle" xml:space="preserve">
+    <value>Give a gift</value>
+  </data>
+  <data name="GiftReceivedDefault" xml:space="preserve">
+    <value>Gift is received</value>
+  </data>
+  <data name="GiftReceivedMessage" xml:space="preserve">
+    <value>You get money as a gift.</value>
+  </data>
+  <data name="GiftReceivedTitle" xml:space="preserve">
+    <value>Receive a gift</value>
+  </data>
+  <data name="InsuranceFeeDefault" xml:space="preserve">
+    <value>Insurance fee</value>
+  </data>
+  <data name="InsuranceFeeMessage" xml:space="preserve">
+    <value>Your payment for insurance.</value>
+  </data>
+  <data name="InsuranceFeeTitle" xml:space="preserve">
+    <value>Insurance fee</value>
+  </data>
+  <data name="InterestDefault" xml:space="preserve">
+    <value>Interest on deposit</value>
+  </data>
+  <data name="InterestMessage" xml:space="preserve">
+    <value>Interest is paid to you on your deposit account.</value>
+  </data>
+  <data name="InterestTitle" xml:space="preserve">
+    <value>Interest on deposit</value>
+  </data>
+  <data name="ItemSoldDefault" xml:space="preserve">
+    <value>Item sold</value>
+  </data>
+  <data name="ItemSoldMessage" xml:space="preserve">
+    <value>You sell something of your own and get money for it.</value>
+  </data>
+  <data name="ItemSoldTitle" xml:space="preserve">
+    <value>Item sold</value>
+  </data>
+  <data name="LendedDefault" xml:space="preserve">
+    <value>Lend money</value>
+  </data>
+  <data name="LendedMessage" xml:space="preserve">
+    <value>You lend money to somebody. Account for lended money should exist.</value>
+  </data>
+  <data name="LendedTitle" xml:space="preserve">
+    <value>Lend money</value>
+  </data>
+  <data name="MedicalDefault" xml:space="preserve">
+    <value>Medical expenses</value>
+  </data>
+  <data name="MedicalMessage" xml:space="preserve">
+    <value>Medical expenses - pharmacy, hospital and so on.</value>
+  </data>
+  <data name="MedicalTitle" xml:space="preserve">
+    <value>Medical expenses</value>
+  </data>
+  <data name="OtherIncomeDefault" xml:space="preserve">
+    <value>Income</value>
+  </data>
+  <data name="OtherIncomeMessage" xml:space="preserve">
+    <value>Any other type of income (specify details in description).</value>
+  </data>
+  <data name="OtherIncomeTitle" xml:space="preserve">
+    <value>Other income</value>
+  </data>
+  <data name="OtherPaymentDefault" xml:space="preserve">
+    <value>Payment</value>
+  </data>
+  <data name="OtherPaymentMessage" xml:space="preserve">
+    <value>Any other type of payment (specify details in description).</value>
+  </data>
+  <data name="OtherPaymentTitle" xml:space="preserve">
+    <value>Other payment</value>
+  </data>
+  <data name="PetExpensesDefault" xml:space="preserve">
+    <value>Pet expenses</value>
+  </data>
+  <data name="PetExpensesMessage" xml:space="preserve">
+    <value>Expenses on your pets (cat, dog and so on).</value>
+  </data>
+  <data name="PetExpensesTitle" xml:space="preserve">
+    <value>Pet expenses</value>
+  </data>
+  <data name="PrizeDefault" xml:space="preserve">
+    <value>Prize is received</value>
+  </data>
+  <data name="PrizeMessage" xml:space="preserve">
+    <value>You won money as a prize.</value>
+  </data>
+  <data name="PrizeTitle" xml:space="preserve">
+    <value>Prize</value>
+  </data>
+  <data name="PurchaseDefault" xml:space="preserve">
+    <value>Big purchase</value>
+  </data>
+  <data name="PurchaseMessage" xml:space="preserve">
+    <value>Significant purchase. Regular shopping should be filled separately.</value>
+  </data>
+  <data name="PurchaseTitle" xml:space="preserve">
+    <value>Big purchase</value>
+  </data>
+  <data name="ReturnDefault" xml:space="preserve">
+    <value>Purchase return</value>
+  </data>
+  <data name="ReturnMessage" xml:space="preserve">
+    <value>You get your money back on return of purchased goods.</value>
+  </data>
+  <data name="ReturnTitle" xml:space="preserve">
+    <value>Return of purchased goods</value>
+  </data>
+  <data name="SalaryDefault" xml:space="preserve">
+    <value>Salary</value>
+  </data>
+  <data name="SalaryMessage" xml:space="preserve">
+    <value>Salary is paid to you, for extra pays there is also Bonus transaction.</value>
+  </data>
+  <data name="SalaryTitle" xml:space="preserve">
+    <value>Salary</value>
+  </data>
+  <data name="ServicesDefault" xml:space="preserve">
+    <value>Payment for services</value>
+  </data>
+  <data name="ServicesMessage" xml:space="preserve">
+    <value>Payment for some services. Services should be clarified in description.</value>
+  </data>
+  <data name="ServicesTitle" xml:space="preserve">
+    <value>Payment for services</value>
+  </data>
+  <data name="ShoppingDefault" xml:space="preserve">
+    <value>Shopping</value>
+  </data>
+  <data name="ShoppingMessage" xml:space="preserve">
+    <value>Regular everyday shopping, significant purchases should be filled separately.</value>
+  </data>
+  <data name="ShoppingTitle" xml:space="preserve">
+    <value>Shopping</value>
+  </data>
+  <data name="SportDefault" xml:space="preserve">
+    <value>Sport expenses</value>
+  </data>
+  <data name="SportMessage" xml:space="preserve">
+    <value>Expenses on sport, fitness, yoga and other activities.</value>
+  </data>
+  <data name="SportTitle" xml:space="preserve">
+    <value>Sport expenses</value>
+  </data>
+  <data name="TaxDefault" xml:space="preserve">
+    <value>Pay taxes</value>
+  </data>
+  <data name="TaxMessage" xml:space="preserve">
+    <value>Tax/duty payment.</value>
+  </data>
+  <data name="TaxReturnDefault" xml:space="preserve">
+    <value>Tax return</value>
+  </data>
+  <data name="TaxReturnMessage" xml:space="preserve">
+    <value>You get some of your taxes back.</value>
+  </data>
+  <data name="TaxReturnTitle" xml:space="preserve">
+    <value>Tax return</value>
+  </data>
+  <data name="TaxTitle" xml:space="preserve">
+    <value>Taxes</value>
+  </data>
+  <data name="TransferDefault" xml:space="preserve">
+    <value>Money transfer</value>
+  </data>
+  <data name="TransferMessage" xml:space="preserve">
+    <value>Money transfer between debit accounts (for example, cash taken from the debit card, or currency exchange).</value>
+  </data>
+  <data name="TransferTitle" xml:space="preserve">
+    <value>Money transfer</value>
+  </data>
+  <data name="TransportationDefault" xml:space="preserve">
+    <value>Transportation</value>
+  </data>
+  <data name="TransportationMessage" xml:space="preserve">
+    <value>Transportation (bus, taxi and so on) expenses.</value>
+  </data>
+  <data name="TransportationTitle" xml:space="preserve">
+    <value>Transportation expenses</value>
+  </data>
+  <data name="UtilitiesDefault" xml:space="preserve">
+    <value>Payment for public utilities</value>
+  </data>
+  <data name="UtilitiesMessage" xml:space="preserve">
+    <value>Payment for public utilities.</value>
+  </data>
+  <data name="UtilitiesTitle" xml:space="preserve">
+    <value>Payment for public utilities</value>
+  </data>
+  <data name="VehicleExpensesDefault" xml:space="preserve">
+    <value>Vehicle expenses</value>
+  </data>
+  <data name="VehicleExpensesMessage" xml:space="preserve">
+    <value>Expenses on car/bike or other moving vehicle (fuel, service and so on).</value>
+  </data>
+  <data name="VehicleExpensesTitle" xml:space="preserve">
+    <value>Vehicle expenses</value>
+  </data>
+</root>

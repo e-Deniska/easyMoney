@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BenefitPaymentDefault" xml:space="preserve">
+    <value>Выплата по страховке</value>
+  </data>
+  <data name="BenefitPaymentMessage" xml:space="preserve">
+    <value>Выплата по страховке при наступлении страхового события.</value>
+  </data>
+  <data name="BenefitPaymentTitle" xml:space="preserve">
+    <value>Выплата по страховке</value>
+  </data>
+  <data name="BonusDefault" xml:space="preserve">
+    <value>Получен бонус</value>
+  </data>
+  <data name="BonusMessage" xml:space="preserve">
+    <value>Выплата бонуса (дополнительного вознаграждения), в дополнение к зарплате.</value>
+  </data>
+  <data name="BonusTitle" xml:space="preserve">
+    <value>Бонус</value>
+  </data>
+  <data name="BorrowedDefault" xml:space="preserve">
+    <value>Получено в долг</value>
+  </data>
+  <data name="BorrowedMessage" xml:space="preserve">
+    <value>Получение денег в долг от кого-либо. Счет для учета долга должен существовать.</value>
+  </data>
+  <data name="BorrowedTitle" xml:space="preserve">
+    <value>Деньги в долг (получены)</value>
+  </data>
+  <data name="CharityDefault" xml:space="preserve">
+    <value>Благотворительность</value>
+  </data>
+  <data name="CharityMessage" xml:space="preserve">
+    <value>Расходы на благотворительность.</value>
+  </data>
+  <data name="CharityTitle" xml:space="preserve">
+    <value>Благотворительность</value>
+  </data>
+  <data name="CommunicationDefault" xml:space="preserve">
+    <value>Связь</value>
+  </data>
+  <data name="CommunicationMessage" xml:space="preserve">
+    <value>Платежи за связь (телефон, мобильная связь, интернет и т.д.).</value>
+  </data>
+  <data name="CommunicationTitle" xml:space="preserve">
+    <value>Связь</value>
+  </data>
+  <data name="CosmeticTreatmentsDefault" xml:space="preserve">
+    <value>Косметические процедуры</value>
+  </data>
+  <data name="CosmeticTreatmentsMessage" xml:space="preserve">
+    <value>Расходы на косметические процедуры (стрижка, маникюр, педикюр и т.д.).</value>
+  </data>
+  <data name="CosmeticTreatmentsTitle" xml:space="preserve">
+    <value>Косметические процедуры</value>
+  </data>
+  <data name="CreditRepaymentDefault" xml:space="preserve">
+    <value>Выплата задолженности</value>
+  </data>
+  <data name="CreditRepaymentMessage" xml:space="preserve">
+    <value>Выберите нужный кредитный счет, укажите сумму платежа и сумму уменьшения задолженности (она может быть меньше).</value>
+  </data>
+  <data name="CreditRepaymentTitle" xml:space="preserve">
+    <value>Платеж по кредиту, карте; возврат долга</value>
+  </data>
+  <data name="DebtReturnedDefault" xml:space="preserve">
+    <value>Возврат долга</value>
+  </data>
+  <data name="DebtReturnedMessage" xml:space="preserve">
+    <value>Возврат ранее ссуженной суммы. Счет для ссуженной суммы должен существовать.</value>
+  </data>
+  <data name="DebtReturnedTitle" xml:space="preserve">
+    <value>Возврат долга</value>
+  </data>
+  <data name="DinnerDefault" xml:space="preserve">
+    <value>Обед</value>
+  </data>
+  <data name="DinnerMessage" xml:space="preserve">
+    <value>Завтрак, обед или ужин.</value>
+  </data>
+  <data name="DinnerTitle" xml:space="preserve">
+    <value>Обед/завтрак</value>
+  </data>
+  <data name="DividentsDefault" xml:space="preserve">
+    <value>Выплата дивидендов</value>
+  </data>
+  <data name="DividentsMessage" xml:space="preserve">
+    <value>Начисление дивидендов.</value>
+  </data>
+  <data name="DividentsTitle" xml:space="preserve">
+    <value>Дивиденды</value>
+  </data>
+  <data name="EntertainmentDefault" xml:space="preserve">
+    <value>Развлечения</value>
+  </data>
+  <data name="EntertainmentMessage" xml:space="preserve">
+    <value>Расходы на кино, рестораны, кафе и другие развлечения.</value>
+  </data>
+  <data name="EntertainmentTitle" xml:space="preserve">
+    <value>Развлечения</value>
+  </data>
+  <data name="FineDefault" xml:space="preserve">
+    <value>Оплата штрафа</value>
+  </data>
+  <data name="FineMessage" xml:space="preserve">
+    <value>Расходы на штрафы, пени и т.п.</value>
+  </data>
+  <data name="FineTitle" xml:space="preserve">
+    <value>Штраф/пеня</value>
+  </data>
+  <data name="GiftGivenDefault" xml:space="preserve">
+    <value>Подарок отдан</value>
+  </data>
+  <data name="GiftGivenMessage" xml:space="preserve">
+    <value>Деньги, потраченные на подарок кому-либо.</value>
+  </data>
+  <data name="GiftGivenTitle" xml:space="preserve">
+    <value>Расходы на подарки</value>
+  </data>
+  <data name="GiftReceivedDefault" xml:space="preserve">
+    <value>Подарок получен</value>
+  </data>
+  <data name="GiftReceivedMessage" xml:space="preserve">
+    <value>Деньги, полученные в качестве подарка.</value>
+  </data>
+  <data name="GiftReceivedTitle" xml:space="preserve">
+    <value>Подарок</value>
+  </data>
+  <data name="InsuranceFeeDefault" xml:space="preserve">
+    <value>Страховой взнос</value>
+  </data>
+  <data name="InsuranceFeeMessage" xml:space="preserve">
+    <value>Платеж по страховке.</value>
+  </data>
+  <data name="InsuranceFeeTitle" xml:space="preserve">
+    <value>Страховой взнос</value>
+  </data>
+  <data name="InterestDefault" xml:space="preserve">
+    <value>Проценты по депозиту</value>
+  </data>
+  <data name="InterestMessage" xml:space="preserve">
+    <value>Проценты, начисленные на депозитный счет.</value>
+  </data>
+  <data name="InterestTitle" xml:space="preserve">
+    <value>Проценты по депозиту</value>
+  </data>
+  <data name="ItemSoldDefault" xml:space="preserve">
+    <value>Продажа личных вещей</value>
+  </data>
+  <data name="ItemSoldMessage" xml:space="preserve">
+    <value>Деньги, полученные от продажи личных вещей.</value>
+  </data>
+  <data name="ItemSoldTitle" xml:space="preserve">
+    <value>Продажа личных вещей</value>
+  </data>
+  <data name="LendedDefault" xml:space="preserve">
+    <value>Выдано в долг</value>
+  </data>
+  <data name="LendedMessage" xml:space="preserve">
+    <value>Деньги в долг кому-либо. Счет для учета ссуженных денег должен существовать.</value>
+  </data>
+  <data name="LendedTitle" xml:space="preserve">
+    <value>Деньги в долг (выданы)</value>
+  </data>
+  <data name="MedicalDefault" xml:space="preserve">
+    <value>Медицинские расходы</value>
+  </data>
+  <data name="MedicalMessage" xml:space="preserve">
+    <value>Медицинские расходы - покупки в аптеке, оплата больничных расходов и т.п.</value>
+  </data>
+  <data name="MedicalTitle" xml:space="preserve">
+    <value>Медицинские расходы</value>
+  </data>
+  <data name="OtherIncomeDefault" xml:space="preserve">
+    <value>Доход</value>
+  </data>
+  <data name="OtherIncomeMessage" xml:space="preserve">
+    <value>Любые другие доходы (укажите детали в описании).</value>
+  </data>
+  <data name="OtherIncomeTitle" xml:space="preserve">
+    <value>Другие доходы</value>
+  </data>
+  <data name="OtherPaymentDefault" xml:space="preserve">
+    <value>Расход</value>
+  </data>
+  <data name="OtherPaymentMessage" xml:space="preserve">
+    <value>Любые другие расходы (укажте детали в описании).</value>
+  </data>
+  <data name="OtherPaymentTitle" xml:space="preserve">
+    <value>Другие расходы</value>
+  </data>
+  <data name="PetExpensesDefault" xml:space="preserve">
+    <value>Расходы на питомцев</value>
+  </data>
+  <data name="PetExpensesMessage" xml:space="preserve">
+    <value>Расходы на домашних питомцев (кошка, собака и т.д.).</value>
+  </data>
+  <data name="PetExpensesTitle" xml:space="preserve">
+    <value>Расходы на питомцев</value>
+  </data>
+  <data name="PrizeDefault" xml:space="preserve">
+    <value>Получен приз</value>
+  </data>
+  <data name="PrizeMessage" xml:space="preserve">
+    <value>Выигрыш в денежной форме.</value>
+  </data>
+  <data name="PrizeTitle" xml:space="preserve">
+    <value>Приз</value>
+  </data>
+  <data name="PurchaseDefault" xml:space="preserve">
+    <value>Большая покупка</value>
+  </data>
+  <data name="PurchaseMessage" xml:space="preserve">
+    <value>Большая покупка. Ежедневные покупки должны вноситься отдельно.</value>
+  </data>
+  <data name="PurchaseTitle" xml:space="preserve">
+    <value>Большая покупка</value>
+  </data>
+  <data name="ReturnDefault" xml:space="preserve">
+    <value>Возврат покупки</value>
+  </data>
+  <data name="ReturnMessage" xml:space="preserve">
+    <value>Возврат денег за предыдущую покупку.</value>
+  </data>
+  <data name="ReturnTitle" xml:space="preserve">
+    <value>Возврат покупки</value>
+  </data>
+  <data name="SalaryDefault" xml:space="preserve">
+    <value>Зарплата</value>
+  </data>
+  <data name="SalaryMessage" xml:space="preserve">
+    <value>Зарплата, для дополнительных доходов есть также Бонус.</value>
+  </data>
+  <data name="SalaryTitle" xml:space="preserve">
+    <value>Зарплата</value>
+  </data>
+  <data name="ServicesDefault" xml:space="preserve">
+    <value>Оплата услуг</value>
+  </data>
+  <data name="ServicesMessage" xml:space="preserve">
+    <value>Оплата услуг. Детали следует заносить в поле Описание.</value>
+  </data>
+  <data name="ServicesTitle" xml:space="preserve">
+    <value>Оплата услуг</value>
+  </data>
+  <data name="ShoppingDefault" xml:space="preserve">
+    <value>Покупки</value>
+  </data>
+  <data name="ShoppingMessage" xml:space="preserve">
+    <value>Обычные покупки. Дорогие вещи должны заноситься отдельно (Большая покупка).</value>
+  </data>
+  <data name="ShoppingTitle" xml:space="preserve">
+    <value>Ежедневные покупки</value>
+  </data>
+  <data name="SportDefault" xml:space="preserve">
+    <value>Расходы на спорт</value>
+  </data>
+  <data name="SportMessage" xml:space="preserve">
+    <value>Расходы на спорт, фитнесс, йогу и т.д.</value>
+  </data>
+  <data name="SportTitle" xml:space="preserve">
+    <value>Расходы на спорт</value>
+  </data>
+  <data name="TaxDefault" xml:space="preserve">
+    <value>Уплата налогов</value>
+  </data>
+  <data name="TaxMessage" xml:space="preserve">
+    <value>Платеж по налогам и сборам.</value>
+  </data>
+  <data name="TaxReturnDefault" xml:space="preserve">
+    <value>Возврат налогов</value>
+  </data>
+  <data name="TaxReturnMessage" xml:space="preserve">
+    <value>Возврат части уплаченных налогов.</value>
+  </data>
+  <data name="TaxReturnTitle" xml:space="preserve">
+    <value>Возврат налогов</value>
+  </data>
+  <data name="TaxTitle" xml:space="preserve">
+    <value>Налоги</value>
+  </data>
+  <data name="TransferDefault" xml:space="preserve">
+    <value>Денежный перевод</value>
+  </data>
+  <data name="TransferMessage" xml:space="preserve">
+    <value>Денежный перевод между счетами (например, наличные с карты, или обмен валюты).</value>
+  </data>
+  <data name="TransferTitle" xml:space="preserve">
+    <value>Денежный перевод</value>
+  </data>
+  <data name="TransportationDefault" xml:space="preserve">
+    <value>Проезд</value>
+  </data>
+  <data name="TransportationMessage" xml:space="preserve">
+    <value>Расходы на проезд (автобус,такси и т.д.).</value>
+  </data>
+  <data name="TransportationTitle" xml:space="preserve">
+    <value>Расходы на проезд</value>
+  </data>
+  <data name="UtilitiesDefault" xml:space="preserve">
+    <value>Коммунальные платежи</value>
+  </data>
+  <data name="UtilitiesMessage" xml:space="preserve">
+    <value>Коммунальные платежи.</value>
+  </data>
+  <data name="UtilitiesTitle" xml:space="preserve">
+    <value>Коммунальные платежи</value>
+  </data>
+  <data name="VehicleExpensesDefault" xml:space="preserve">
+    <value>Расходы на автомобиль</value>
+  </data>
+  <data name="VehicleExpensesMessage" xml:space="preserve">
+    <value>Расходы на автомобиль, мотоцикл или другое транспортное средство (топливо, обслуживание и т.д.).</value>
+  </data>
+  <data name="VehicleExpensesTitle" xml:space="preserve">
+    <value>Расходы на автомобиль</value>
+  </data>
+</root>

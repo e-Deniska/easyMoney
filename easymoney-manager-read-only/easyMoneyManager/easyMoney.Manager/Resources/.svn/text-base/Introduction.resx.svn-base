@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountsText" xml:space="preserve">
+    <value>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fswiss\fprq2\fcharset0 Verdana;}{\f1\fswiss\fprq2\fcharset204 Verdana;}{\f2\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 To keep track of your money, you need to define your accounts. Without defining accounts, you can't submit any transaction.\par
+\par
+Accounts in \i easyMoney \i0 could include:\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-284\li284\b cash\b0 ;\par
+\b{\pntext\f2\'B7\tab}debit cards\b0 ;\par
+\b{\pntext\f2\'B7\tab}borrowed \b0 and \b lended \b0 money;\par
+\b{\pntext\f2\'B7\tab}loans\b0 ;\par
+{\pntext\f2\'B7\tab}and others.\par
+\pard\par
+Each account has its own type and currency. Currently, \i easyMoney \i0 supports three currencies: \b US Dollar\b0 , \b Euro \b0 and \b Russian Rouble\b0 .\par
+\par
+When account is created, you can submit transactions with this account. Also, you could correct account balance, when needed (for example, if calculated account balance differs from actual). If this happens too often, probably, this means that not all transactions are put into \i easyMoney\i0 , or transaction amounts are not accurate.\par
+\lang1049\f1\par
+}</value>
+  </data>
+  <data name="AccountsTitle" xml:space="preserve">
+    <value>Accounts concept</value>
+  </data>
+  <data name="NextStepsText" xml:space="preserve">
+    <value>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fswiss\fprq2\fcharset0 Verdana;}{\f1\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Now you know the basics of \i easyMoney\i0 .\par
+\par
+Here are some actions that you could do right now:\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-284\li284 define \b your accounts\b0 , starting with \b cash \b0 (count current balance for each account); do not forget about \b debts \b0 and \b loans\b0 , if you have those;\par
+{\pntext\f1\'B7\tab}enter \b your recurrent transactions as plans \b0 - salary, vehicle expenses, sport, medical - everything, you can remember;\par
+{\pntext\f1\'B7\tab}put your \b today's transactions \b0 - of course, if there were any.\par
+\pard\par
+Do not forget to spend 15 minutes in the end of each day to put your transactions. Do it everyday - then you'll never forget about money spent or earned.\par
+\par
+If you have any questions, suggestions, please, contact development team. You can find all required information on "About" tab.\par
+\par
+\b Good luck!\b0\par
+}</value>
+  </data>
+  <data name="NextStepsTitle" xml:space="preserve">
+    <value>Next steps</value>
+  </data>
+  <data name="PlansText" xml:space="preserve">
+    <value>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fswiss\fprq2\fcharset0 Verdana;}{\f1\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 If you want to have a better control over your finances, you should plan your income and spending.\par
+\par
+Plans are very similar to transactions, expect:\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-284\li284 plans do not have exact account (only account type);\par
+{\pntext\f1\'B7\tab}plans could be recurrent (for example, salary could be a monthly income plan);\par
+{\pntext\f1\'B7\tab}you can edit plan information at any time.\par
+\pard\par
+If you can predict any payment or income - plan it in \i easyMoney\i0 . Then, when transaction happens (for example, you actually receive your salary), when entering transaction into \i easyMoney \i0 you should select proper plan from "Implements a plan" section.\par
+\par
+If transaction amount differs from planned, you can set it before submitting a transaction. By default, \i easyMoney \i0 will set title, amount and tags of the transaction from plan.\par
+\par
+\i easyMoney \i0 reports will help you to keep track of your planned and unplanned transactions.\par
+}</value>
+  </data>
+  <data name="PlansTitle" xml:space="preserve">
+    <value>Planning your transactions</value>
+  </data>
+  <data name="ReportsText" xml:space="preserve">
+    <value>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fswiss\fprq2\fcharset0 Verdana;}{\f1\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Reporting is the most important feature of \i easyMoney\i0 . Reports are showing the information you entered in different forms. \par
+Currently, \i easyMoney \i0 has these reports:\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-284\li284\b Amounts by tags \b0 - shows total amounts spent and earned for each tag in tabular form;\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-284\li284\b Amounts by tags chart \b0 - shows total amounts spent and earned for each tag in chart form;\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-284\li284\b Amounts by transaction types \b0 - shows total amounts for each transaction type;\par
+\b{\pntext\f1\'B7\tab}Spending structure \b0 - shows shares of your spendings (you can easily see "money eaters");\par
+\b{\pntext\f1\'B7\tab}Planned balance changes \b0 - shows how will your assets and debts change according to your plans;\par
+\b{\pntext\f1\'B7\tab}Actual balance changes \b0 - shows how your assets and debts were chaning during specified period;\par
+\b{\pntext\f1\'B7\tab}Transactions by account \b0 - shows list of transactions for a specific account;\par
+\b{\pntext\f1\'B7\tab}Month balance report \b0 - shows how good you plan your financial activities and showing month totals.\par
+\pard\par
+}</value>
+  </data>
+  <data name="ReportsTitle" xml:space="preserve">
+    <value>Reports - check your income and spending</value>
+  </data>
+  <data name="TagsText" xml:space="preserve">
+    <value>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fswiss\fprq2\fcharset0 Verdana;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 When you have a lot of plans and transactions, it is easier to find something using tags. In \i easyMoney \i0 each information piece (account, plan, transaction) could have set of tags. You are free to use any tags, which you decide suitable. \par
+\par
+For example, typical tags would be: "car", "internet", "phone", "movies", "vacation" or any other.\par
+\par
+Tags could help you to differentiate between transactions of the same type.\par
+\par
+When entering tags for new transaction, plan or account information, tag suggestions will be shown to you. \i easyMoney \i0 shows current tag cloud on "Search" tab for easy search. You can use tags when selecting data for reports. \par
+\par
+Also, there are reports which will help you to see amounts going in and out for each tag.\par
+}</value>
+  </data>
+  <data name="TagsTitle" xml:space="preserve">
+    <value>Tags - categorize everything</value>
+  </data>
+  <data name="TransactionsText" xml:space="preserve">
+    <value>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fswiss\fprq2\fcharset0 Verdana;}{\f1\fnil\fcharset2 Symbol;}}
+{\*\generator Msftedit 5.41.15.1515;}\viewkind4\uc1\pard\lang1033\f0\fs20 By transaction \i easyMoney \i0 understands any financial operation. All transactions could be divided into groups:\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-284\li284\b income \b0 - transactions when you receive money;\par
+\b{\pntext\f1\'B7\tab}payment \b0 - transactions when you spend money;\par
+\b{\pntext\f1\'B7\tab}special \b0 - money transfer between accounts, account balance correction.\par
+\pard\par
+Each transaction record contains: transaction type (for example, shopping or salary), title and full description (optional), date and time, account, and amount. There are other fields which will be described later.\par
+\par
+Transaction could be "dual" - affecting two accounts. For example, "Credit repayment" transaction has two parts:\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-284\li284 credit repayment - amount of money you spend on this payment;\par
+{\pntext\f1\'B7\tab}credit amount reduction - debt amount reduction (typically, less than first amount, since you pay debt and bank interest).\par
+\pard\par
+After you submit a transaction, you can't edit it, so check all fields for validity. The only option to modify transaction - delete transaction and enter it again.\par
+\par
+}</value>
+  </data>
+  <data name="TransactionsTitle" xml:space="preserve">
+    <value>Transactions - all your financial activities</value>
+  </data>
+  <data name="WelcomeText" xml:space="preserve">
+    <value>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fswiss\fprq2\fcharset0 Verdana;}{\f1\fswiss\fprq2\fcharset204 Verdana;}{\f2\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Welcome to \i easyMoney \i0 - personal finance management software.\par
+\par
+\i easyMoney \i0 will help you to:\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-284\li284 monitor your assets and debts;\par
+{\pntext\f2\'B7\tab}keep track of your income and spending;\par
+{\pntext\f2\'B7\tab}plan your budget;\par
+{\pntext\f2\'B7\tab}understand structure of your spendings and find "lost" money;\par
+{\pntext\f2\'B7\tab}improve your financial stability. \par
+\pard\par
+\i easyMoney \i0 is much simplier than typical accounting software, it is already optimized for home/family usage. \i easyMoney \i0 is tolerant for mistakes and allowing to fix them very easy.\par
+\par
+Predefined transaction templates and reports are allowing to use software "out-of-the-box". However, experienced users could extend bundled templates by adding their own modifications - all information is stored in XML format.\lang1049\f1  \lang1033\f0 Ways of extending and customizing applications will be documented later.\par
+}</value>
+  </data>
+  <data name="WelcomeTitle" xml:space="preserve">
+    <value>Welcome to easyMoney</value>
+  </data>
+</root>

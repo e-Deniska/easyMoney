@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountAmountGroupBoxLabel" xml:space="preserve">
+    <value>Счет и сумма</value>
+  </data>
+  <data name="AccountBalanceButtonToolTip" xml:space="preserve">
+    <value>Корректировка баланса счета</value>
+  </data>
+  <data name="AccountCorrectionLabel" xml:space="preserve">
+    <value>Корректировка баланса счета</value>
+  </data>
+  <data name="AccountValidationErrorsFoundFormat" xml:space="preserve">
+    <value>Проверка обнаружила следующие проблемы с этим счетом:
+
+{0}
+
+Из-за этого счет не может быть сохранен. Пожалуйста, исправьте проблемы и попробуйте снова.</value>
+  </data>
+  <data name="AccountValidationTitle" xml:space="preserve">
+    <value>Информация о проверке счета</value>
+  </data>
+  <data name="AccountValidationWarningsFoundFormat" xml:space="preserve">
+    <value>Проверка обнаружила следующие проблемы с этим счетом:
+
+{0}
+
+Вы хотите сохранить счет все равно?</value>
+  </data>
+  <data name="BalanceFormat" xml:space="preserve">
+    <value>Баланс: {0:C}</value>
+  </data>
+  <data name="CreateAccountsFirst" xml:space="preserve">
+    <value>Вы должны сначала определить счета!</value>
+  </data>
+  <data name="DefaultStatus" xml:space="preserve">
+    <value>easyMoney готов</value>
+  </data>
+  <data name="DeleteAccountFormat" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить счет: {0}?
+
+Все транзакции, связанные с этим счетом останутся в списке, но баланс счета будет удален из перечня активов и долгов.</value>
+  </data>
+  <data name="DeleteAccountTitle" xml:space="preserve">
+    <value>Удалить счет?</value>
+  </data>
+  <data name="DeletePairedTransactionFormat" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить транзакцию: {0}?
+
+Есть связанная транзакция; обе транзакции будут удалены.</value>
+  </data>
+  <data name="DeletePlannedTransactionFormat" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить запланированную транзакцию: {0}?</value>
+  </data>
+  <data name="DeletePlannedTransactionTitle" xml:space="preserve">
+    <value>Удалить запланированную транзакцию?</value>
+  </data>
+  <data name="DeleteTransactionFormat" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить тразнакцию: {0}?</value>
+  </data>
+  <data name="DeleteTransactionTitle" xml:space="preserve">
+    <value>Удалить транзакцию?</value>
+  </data>
+  <data name="NewIncomeLabel" xml:space="preserve">
+    <value>Новый доход</value>
+  </data>
+  <data name="NewPaymentLabel" xml:space="preserve">
+    <value>Новый расход</value>
+  </data>
+  <data name="NoAccountsText" xml:space="preserve">
+    <value>Счета не определены!
+
+Перенаправляю на закладку Счета, где можно определить необходимые счета.</value>
+  </data>
+  <data name="NoAccountsTitle" xml:space="preserve">
+    <value>Счета не определены!</value>
+  </data>
+  <data name="NoUpdatesFormat" xml:space="preserve">
+    <value>easyMoney v{0} является текущей версией.
+В настоящий момент нет обновлений.</value>
+  </data>
+  <data name="NoUpdatesTitle" xml:space="preserve">
+    <value>easyMoney не требуется обновление</value>
+  </data>
+  <data name="PlanImplementedToolTip" xml:space="preserve">
+    <value>Запланированная транзакция реализована.</value>
+  </data>
+  <data name="PlannedTransactionSubmitButtonToolTip" xml:space="preserve">
+    <value>Создать транзакцию, реализующую этот план</value>
+  </data>
+  <data name="PlannedTransactionValidationErrorsFoundFormat" xml:space="preserve">
+    <value>Проверка обнаружила следуюбщие проблемы с этой запланированной транзакцией:
+
+{0}
+
+Из-за этого запланированная транзакция не может быть сохранена. Пожалуйста, исправьте проблемы и попробуйте снова.</value>
+  </data>
+  <data name="PlannedTransactionValidationTitle" xml:space="preserve">
+    <value>Проверка запланированной транзакции</value>
+  </data>
+  <data name="PlannedTransactionValidationWarningsFoundFormat" xml:space="preserve">
+    <value>Проверка обнаружила следуюбщие проблемы с этой запланированной транзакцией:
+
+{0}
+
+Вы хотите сохранить запланированной тразнакцию все равно?</value>
+  </data>
+  <data name="PlanNotImplementedToolTip" xml:space="preserve">
+    <value>Запланированная транзакция НЕ реализована!</value>
+  </data>
+  <data name="PlanNotImplementedYetToolTip" xml:space="preserve">
+    <value>Запланированная транзакция пока не реализована.</value>
+  </data>
+  <data name="TagToolTipFormat" xml:space="preserve">
+    <value>Отобразить всю информацию с меткой '{0}'</value>
+  </data>
+  <data name="TemplateAccountNotFoundFormat" xml:space="preserve">
+    <value>Этот шаблон использует счет типа [{0}].
+
+Пожалуйста, создайте счет необходимого типа, чтобы использовать этот шаблон.</value>
+  </data>
+  <data name="TemplateAccountNotFoundTitle" xml:space="preserve">
+    <value>Необходимый счет не найден</value>
+  </data>
+  <data name="TransactionDestinationValidation" xml:space="preserve">
+    <value>Получатель:</value>
+  </data>
+  <data name="TransactionSourceValidation" xml:space="preserve">
+    <value>Источник:</value>
+  </data>
+  <data name="TransactionValidationErrorsFoundFormat" xml:space="preserve">
+    <value>Проверка обнаружила следуюбщие проблемы с этой транзакцией:
+
+{0}
+
+Из-за этого транзакция не может быть сохранена. Пожалуйста, исправьте проблемы и попробуйте снова.</value>
+  </data>
+  <data name="TransactionValidationTitle" xml:space="preserve">
+    <value>Проверка транзакции</value>
+  </data>
+  <data name="TransactionValidationWarningsFoundFormat" xml:space="preserve">
+    <value>Проверка обнаружила следуюбщие проблемы с этой транзакцией:
+
+{0}
+
+Вы хотите сохранить тразнакцию все равно?</value>
+  </data>
+  <data name="UpdateAvailableFormat" xml:space="preserve">
+    <value>Доступна новая версия easyMoney.
+Вы используете версию {0}, и {1} доступна.
+
+Обновление будет загружено в фоновом режиме. easyMoney будет перезапущен, как только обновление будет загружено и установлено.
+
+Вы хотите скачать и установить обновление?</value>
+  </data>
+  <data name="UpdateAvailableTitle" xml:space="preserve">
+    <value>Доступна новая версия easyMoney</value>
+  </data>
+  <data name="UpdateCheckStatus" xml:space="preserve">
+    <value>easyMoney проверяет наличие обновлений...</value>
+  </data>
+  <data name="UpdateDownloadingStatus" xml:space="preserve">
+    <value>easyMoney скачивает обновление...</value>
+  </data>
+  <data name="UpdateErrorFormat" xml:space="preserve">
+    <value>Произошла ошибка во время проверки обновлений:
+
+{0}
+
+Пожалуйста, свяжитесь с разработчиками easyMoney.</value>
+  </data>
+  <data name="UpdateErrorTitle" xml:space="preserve">
+    <value>Ошибка проверки обновлений</value>
+  </data>
+  <data name="UpdateFailedStatus" xml:space="preserve">
+    <value>Обновление easyMoney не удалось!</value>
+  </data>
+  <data name="UpdatesNotFoundStatus" xml:space="preserve">
+    <value>easyMoney не требуется обновление</value>
+  </data>
+  <data name="CopyFormat" xml:space="preserve">
+    <value>Копия: {0}</value>
+  </data>
+  <data name="DeletePairedPlannedTransactionFormat" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить запланированную транзакцию: {0}?
+
+Есть связанная запланированная транзакция; обе запланированные транзакции будут удалены.</value>
+  </data>
+  <data name="PlannedTemplateFormat" xml:space="preserve">
+    <value>План: {0}</value>
+  </data>
+  <data name="RecurrencyUntilFormat" xml:space="preserve">
+    <value>{0}, до {1:d}</value>
+  </data>
+  <data name="TransactionNotPlanned" xml:space="preserve">
+    <value>Тразнакция не запланирована.</value>
+  </data>
+  <data name="BalanceLaterHint" xml:space="preserve">
+    <value>Вы укажете начальный баланс далее</value>
+  </data>
+  <data name="ApplicationLoadingMessage" xml:space="preserve">
+    <value>easyMoney запускается...</value>
+  </data>
+  <data name="PortableFormTitleFormat" xml:space="preserve">
+    <value>easyMoney v{0} - {1}</value>
+  </data>
+  <data name="ClearCustomMetadataMessage" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить все пользовательские метаданные?
+
+ВНИМАНИЕ! Все счета, планы, транзакции, основанные на пользовательских метаданных, будут удалены навсегда! Эта операция не может быть отменена!</value>
+  </data>
+  <data name="ClearCustomMetadataTitle" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить все пользовательские метаданные?</value>
+  </data>
+  <data name="DeleteTagFormat" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить метку '{0}'?
+
+Эта метка будет удалена из всех записей. Это операция не может быть отменена!</value>
+  </data>
+  <data name="DeleteTagTitle" xml:space="preserve">
+    <value>Удалить выбранную метку?</value>
+  </data>
+  <data name="EmptyTagNotAllowed" xml:space="preserve">
+    <value>Метка не может быть пустой строкой.</value>
+  </data>
+  <data name="TagAlreadyExistFormat" xml:space="preserve">
+    <value>Метка '{0}' уже существует, пожалуйста, используйте другую строку в качестве метки.</value>
+  </data>
+  <data name="TagRenameErrorTitle" xml:space="preserve">
+    <value>Ошибка переименования метки</value>
+  </data>
+  <data name="FileFilter" xml:space="preserve">
+    <value>Файлы данных easyMoney (*.xemdf)|*.xemdf|Все файлы (*.*)|*.*</value>
+  </data>
+  <data name="DataLoadingMessage" xml:space="preserve">
+    <value>easyMoney загружает файл данных...</value>
+  </data>
+  <data name="PasswordInvalid" xml:space="preserve">
+    <value>Пароль НЕ действует</value>
+  </data>
+  <data name="PasswordValid" xml:space="preserve">
+    <value>Пароль действует</value>
+  </data>
+  <data name="PasswordIncorrect" xml:space="preserve">
+    <value>Неверный пароль. Введите правильный пароль.</value>
+  </data>
+  <data name="ActionNeededMessage" xml:space="preserve">
+    <value>Пожалуйста, ответьте...</value>
+  </data>
+  <data name="PleaseWaitMessage" xml:space="preserve">
+    <value>Пожалуйста, подождите...</value>
+  </data>
+  <data name="DefaultFormTitleFormat" xml:space="preserve">
+    <value>easyMoney v{0}</value>
+  </data>
+  <data name="AccountHidden" xml:space="preserve">
+    <value>скрыт</value>
+  </data>
+  <data name="StatsDay" xml:space="preserve">
+    <value>День, {0}</value>
+  </data>
+  <data name="StatsMonth" xml:space="preserve">
+    <value>Месяц, {0}</value>
+  </data>
+  <data name="StatsYear" xml:space="preserve">
+    <value>Год, {0}</value>
+  </data>
+</root>
