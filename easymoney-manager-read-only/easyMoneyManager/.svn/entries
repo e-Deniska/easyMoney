@@ -1,92 +1,0 @@
-10
-
-dir
-278
-http://easymoney-manager.googlecode.com/svn/trunk/easyMoneyManager
-http://easymoney-manager.googlecode.com/svn
-
-
-
-2011-04-22T06:06:11.780985Z
-277
-d.tazetdinov@gmail.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-71e9d7bb-d23e-7b0a-f5f1-1f5196abbf80
-
-easyMoneyManager.sln
-file
-
-
-
-
-2012-10-31T17:42:34.000000Z
-e5ac30518a677fec96386257ac5e48ee
-2011-01-28T14:32:47.251133Z
-259
-d.tazetdinov@gmail.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8868
-
-easyMoney.SimpleReports
-dir
-
-easyMoney.Data
-dir
-
-easyMoney.Presentation.Test
-dir
-
-easyMoney.Manager
-dir
-
-easyMoney.Utilities
-dir
-
-easyMoneyManager
-dir
-
-easyMoney.Reports
-dir
-
-easyMoney.Setup
-dir
-
-easyMoney.Controls
-dir
-
-easyMoney.Parameters
-dir
-
